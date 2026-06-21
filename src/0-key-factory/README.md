@@ -35,7 +35,7 @@ export type ProductDetailsPayload = MaybeRefOrGetter<TProductDetailsPayload>
 export type ProductDetailsPayload = MaybeRefOrGetter<Partial<TProductDetailsPayload>>
 ```
 
-> При дальнейшем использовании `productQueryKeys` в коде, вывод типов TypeScript из плагина VS Code на Go может баговаться, рекомендую отключить его, пока не станет стабильным. (TODO перепроверить, мб пофиксили)
+> При дальнейшем использовании `productQueryKeys` в коде, вывод типов TypeScript из плагина VS Code на Go может баговать и выводить ошибку, которой не будет при typecheck. Рекомендую отключить его, пока не станет стабильным. (TODO перепроверить, мб пофиксили)
 
 ---
 
