@@ -1,6 +1,7 @@
 # Key factory
 
-[На главную](../../README.md)
+- [Пример кода](./products.key.ts)
+- [На главную](../../README.md)
 
 ---
 
@@ -19,13 +20,13 @@ export const productQueryKeys = {
     [...productQueryKeys.allDetails(), payload] as const,
 }
 
-// Причем `payload` делаем потенциально реактивными
+// Причем `payload` делаем потенциально реактивным
 export type ProductListPayload = MaybeRefOrGetter<TProductListPayload>
 
 export type ProductDetailsPayload = MaybeRefOrGetter<TProductDetailsPayload>
 ```
 
-Когда требуются менее конкретный ключ:
+Когда требуются менее конкретный ключ, например для инвалидации кэша:
 
 - Вариант 1. Добавить вспомогательные утилитный ключь в `productQueryKeys` и использовать его.
 - Вариант 2. Сделать поля `payload` необязательными.
@@ -38,4 +39,5 @@ export type ProductDetailsPayload = MaybeRefOrGetter<Partial<TProductDetailsPayl
 
 ---
 
-[На главную](../../README.md)
+- [Пример кода](./products.key.ts)
+- [На главную](../../README.md)
