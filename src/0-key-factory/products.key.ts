@@ -1,8 +1,8 @@
-import { toValue, type MaybeRefOrGetter } from "vue";
-import type { TProductDetailsPayload, TProductListPayload } from "./products.validators";
+import { toValue, type MaybeRefOrGetter } from 'vue'
+import type { TProductDetailsPayload, TProductListPayload } from './products.validators'
 
 // берем где-нибудь из shared
-const pimBaseQueryKeys = ['pim'] as const;
+export const pimBaseQueryKeys = ['pim'] as const
 
 export type ProductListPayload = MaybeRefOrGetter<Partial<TProductListPayload>>
 
