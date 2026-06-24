@@ -17,8 +17,8 @@
 ## Практики
 
 - [Key factory](src/key-factory/README.md)
-- Meta для частных сценариев
-  - уведомления при мутациях
+- Mutation meta для частых сценариев
+  - уведомления
   - инвалидация
 - Options factory
 - Data freshness strategies
