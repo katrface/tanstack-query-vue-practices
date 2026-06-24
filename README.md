@@ -16,11 +16,11 @@
 
 ## Практики
 
-- [Key factory](src/0-key-factory/README.md)
+- [Key factory](src/key-factory/README.md)
 - Data freshness strategies
 - Options factory
 - Meta для частных сценариев
-- [Несколько `queryClient` (например в микрофронтах)](src/4-many-query-clients/README.md)
+- [Несколько `queryClient` (например в микрофронтах)](src/many-query-clients/README.md)
 - Composable конвертации состония query в UI состоние
 - Мутация кэша
 - Tanstack query как граница слоя api
