@@ -1,4 +1,4 @@
-import type { TProductDetailsPayload } from '@/0-key-factory/products.validators'
+import type { TProductDetailsPayload } from '@/key-factory/products.validators'
 
 export const fetchProductDetails = async (payload: TProductDetailsPayload) => {
   console.log(payload)

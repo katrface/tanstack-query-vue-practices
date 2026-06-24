@@ -1,8 +1,8 @@
-import { productQueryKeys } from '@/0-key-factory/products.key'
-import type { ProductDetailsPayload } from '@/0-key-factory/products.key'
+import { productQueryKeys } from '@/key-factory/products.key'
+import type { ProductDetailsPayload } from '@/key-factory/products.key'
 import { mutationOptions, queryOptions } from '@tanstack/vue-query'
 import { fetchArchiveProduct, fetchProductDetails } from './products.endboints'
-import { VProductDetailsPayload } from '@/0-key-factory/products.validators'
+import { VProductDetailsPayload } from '@/key-factory/products.validators'
 import { toValue } from 'vue'
 
 export const productDetailsOptions = (payload: ProductDetailsPayload) =>

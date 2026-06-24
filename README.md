@@ -17,9 +17,11 @@
 ## Практики
 
 - [Key factory](src/key-factory/README.md)
-- Data freshness strategies
-- Options factory
 - Meta для частных сценариев
+  - уведомления при мутациях
+  - инвалидация
+- Options factory
+- Data freshness strategies
 - [Несколько `queryClient` (например в микрофронтах)](src/many-query-clients/README.md)
 - Composable конвертации состония query в UI состоние
 - Мутация кэша

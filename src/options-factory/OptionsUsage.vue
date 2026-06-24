@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { mutationOptions, queryOptions, useMutation, useQuery } from '@tanstack/vue-query'
 import { archiveProductOptions, productDetailsOptions } from './products.options'
-import { VProductDetailsPayload } from '@/0-key-factory/products.validators'
+import { VProductDetailsPayload } from '@/key-factory/products.validators'
 
 const props = defineProps<{
   shopId?: number
